@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('Git Checkout'){
             steps{
-                git branch: 'master', url: 'https://github.com/kiran5108/hello-world-war.git'
+                git branch: 'master', url: 'https://github.com/sujatha018/j-project-s.git'
             }
         }
         stage('Build'){
